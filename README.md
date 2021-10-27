@@ -1,2 +1,13 @@
 # tailwind-forms-safari-select-issue
-MacOS Safari renders selects as native ignoring tailwind-forms
+
+Minimal reproduction for @tailwindcss/forms issue with rendering `<select>` elements in MacOS Safari. 
+
+`npm start` build then open http://localhost:8000/
+
+The select drop down is not rendered correctly in MacOS Safari.
+
+![](screenshot-safari.png)
+
+It is rendered correctly in every other browser include iOS/iPadOS Safari.
+
+![](screenshot-others.png)

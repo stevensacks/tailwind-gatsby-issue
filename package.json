@@ -1,0 +1,37 @@
+{
+  "name": "tailwind-forms-safari-select-issue",
+  "description": "Tailwind forms MacOS Safari select issue",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Steven Sacks <stevensacks@gmail.com>",
+  "scripts": {
+    "build": "gatsby build -- --verbose",
+    "deploy": "gatsby-plugin-s3 deploy --yes",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "watch": "TAILWIND_MODE=watch npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@reach/router": "^1.3.4",
+    "@tailwindcss/forms": "^0.3.4",
+    "autoprefixer": "^10.3.7",
+    "gatsby": "^3.14.3",
+    "gatsby-cli": "^3.14.2",
+    "gatsby-plugin-postcss": "^4.14.0",
+    "postcss": "^8.3.11",
+    "postcss-loader": "^6.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^2.2.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "babel-loader": "^8.2.3",
+    "babel-preset-react-app": "^10.0.0",
+    "cssnano": "^5.0.8",
+    "postcss-cli": "^9.0.1"
+  }
+}
