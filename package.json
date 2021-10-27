@@ -8,8 +8,7 @@
     "build": "gatsby build -- --verbose",
     "deploy": "gatsby-plugin-s3 deploy --yes",
     "develop": "gatsby develop",
-    "start": "npm run develop",
-    "watch": "TAILWIND_MODE=watch npm run develop",
+    "start": "TAILWIND_MODE=watch npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
